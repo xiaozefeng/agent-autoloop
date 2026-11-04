@@ -126,7 +126,7 @@ Claude 主任务要委托 Codex 操作网页时，从 `examples/recipes/browser-
 项目 Ship 只在 main 的 push 上运行，检出完整历史（checkout 的 `fetch-depth: 0`），然后调用这个仓库的 Action。把下面的占位提交换成发布后核实的完整 SHA：
 
 ```yaml
-- uses: KKKKhazix/agent-autoloop/plugins/delivery@<完整提交编号>
+- uses: xiaozefeng/agent-autoloop/plugins/delivery@<完整提交编号>
   id: scope
 - if: steps.scope.outputs.release == 'true' && steps.scope.outputs.superseded != 'true'
   run: ./项目已有的发布命令
