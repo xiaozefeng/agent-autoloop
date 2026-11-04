@@ -23,7 +23,7 @@ Most of us use command-line agents like Claude Code or Codex by babysitting a te
 Works on macOS and Linux. You need Node 24, Git, curl, and at least one command-line agent already signed in; no GitHub account required. You can also hand the [installation guide](INSTALL.md) to your agent and let it install everything for you.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/KKKKhazix/agent-autoloop/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/xiaozefeng/agent-autoloop/main/install.sh | sh
 ```
 
 Then run a real loop with your own agent — ask, exit while it waits, make the call, resume:
